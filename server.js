@@ -1,7 +1,6 @@
 'use strict';
 
 const express = require('express');
-const router = require('./routes');
 const app = express();
 const port = 8042;
 const indexRouter = require('./routes/index');
